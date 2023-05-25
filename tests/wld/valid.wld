@@ -1,0 +1,6 @@
+import foo: local:foobar/foo
+import bar: local:foobar/bar
+
+component foobar
+
+let root = new foobar{foo, bar}

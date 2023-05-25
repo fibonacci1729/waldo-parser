@@ -1,0 +1,6 @@
+package local:foobar
+
+world foobar {
+    import foo
+    import bar
+}

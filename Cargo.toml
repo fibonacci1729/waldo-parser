@@ -1,0 +1,16 @@
+[package]
+name = "waldo-parser"
+version = "0.2.15"
+edition = "2021"
+license = "Apache-2.0 WITH LLVM-exception"
+readme = "README.md"
+description = "A library for parsing WebAssembly composition documents."
+
+[dependencies]
+indexmap = { version = "1.9.1", features = ["serde"] }
+anyhow = "1.0.58"
+log = "0.4.17"
+id-arena = "2"
+semver = "1.0.0"
+unicode-xid = "0.2.2"
+wit-parser = { git = "https://github.com/alexcrichton/wasm-tools", branch = "wit-changes" }
